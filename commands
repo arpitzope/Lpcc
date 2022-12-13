@@ -9,4 +9,5 @@ gedit 4a.l
 gedit 4a.y
 lex 4a.l
 yaac -d 4a.y
+cc lex.yy.c y.tab.c
 ./a.out
