@@ -1,0 +1,12 @@
+sudo apt-get install flex/bison
+(for all 3rd assign programs)
+gedit 3a.l
+flex 3a.l
+cc lex.yy.c -lfl
+./a.out
+
+gedit 4a.l
+gedit 4a.y
+lex 4a.l
+yaac -d 4a.y
+./a.out
